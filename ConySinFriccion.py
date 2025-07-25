@@ -2,7 +2,7 @@
 """
 Created on Fri Jul 25 12:39:36 2025
 
-@author: Lenovo
+@author: Jhon Jairo ESpinosa
 """
 
 import numpy as np 
