@@ -1,7 +1,16 @@
-In coomon text books, parabolic motion is revised without considering friction. 
-¿But, how the motion is affected for a real effect as air friction?
-In terms of show students the importance of air fricition we present this brief code.
-As literature suggests it is treated as a force proportional to velocity and againsts vector velocity.
-The code was inspired in: https://www.youtube.com/watch?v=b9S_L1AaJNw and adapted with chatgpt
+## Projectile Motion with and without Air Friction
 
-We solve the resulting First Order Diferential Equation (FOEDE) using  the paquet scipy.integrate from python. 
+In common textbooks, parabolic motion is often studied without considering air friction.  
+But how is the motion affected when air resistance is present?
+
+To show students the importance of air friction, we present this brief code example.  
+As the literature suggests, air resistance can be modeled as a force proportional to the velocity and acts in the direction opposite to motion.
+
+This code was inspired by the following video:  
+[https://www.youtube.com/watch?v=b9S_L1AaJNs](https://www.youtube.com/watch?v=b9S_L1AaJNs)
+
+The solution of the resulting First Order Differential Equation (FODE) was assisted by [ChatGPT](https://chat.openai.com),  
+where the model helped in debugging, commenting, and improving the structure of the Python code.
+
+We used the `scipy.integrate` package from Python to simulate the system.
+
